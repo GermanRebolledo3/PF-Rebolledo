@@ -1,0 +1,19 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+footer {
+    @include flex(space-evenly);
+    height: 4rem;
+    color: $color-blanco;
+    margin-top: auto;
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: $color-gris;
+}
+
+@media (max-width:508px){
+    footer {
+        flex-direction: column;
+        height: 10rem;
+    }
+}

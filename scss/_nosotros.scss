@@ -1,0 +1,28 @@
+.sobre-nosotros{
+    background-image: url("../Img/fondocalles.jpg");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    color: $color-blanco;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    text-align: center;
+    @include flex(center);
+    flex-direction: column;
+    gap: 3.3rem;
+    iframe{
+        margin-bottom: 3rem;
+        border-radius: 20%;
+    }
+    h2{
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 625px){
+    .sobre-nosotros{
+        iframe{
+            width: 275px;
+            height: 200px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    
+html{
+body {
+    background-color: $color-negro;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+li {
+    list-style: none;
+    color: $color-blanco;
+
+a {
+    text-decoration: none;
+    color: $color-blanco;
+}
+}
+}
