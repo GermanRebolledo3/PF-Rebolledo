@@ -9,11 +9,44 @@ footer {
     width: 100%;
     font-size: 1.3rem;
     background-color: $color-gris;
+
+    img{width: 4rem; }
+    p{ margin-top:1rem ;
+        color: rgb(255, 249, 249,0.2);
+        font-size: 0.7rem;
+    }
+    a{position: relative;
+        display: inline-block;
+        color: white;
+        padding: 15px;
+        font-size: 23px;
+        overflow: hidden;
+        margin: 10px;
+
+        img{ 
+            width: 3rem;
+            transition: 0.2s;
+            object-fit: cover;
+        }
+
+        img:hover{
+           transform: scale(1.4);
+           border: solid rgb(231, 1, 252);
+           border-radius: 50%;
+           border-color: rgb(31, 1, 116);
+
+           
+        }
+      
+     }
+
 }
+
 
 @media (max-width:508px){
     footer {
         flex-direction: column;
-        height: 10rem;
+        height: auto;
     }
+  
 }

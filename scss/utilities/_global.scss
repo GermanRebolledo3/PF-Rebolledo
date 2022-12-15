@@ -5,19 +5,21 @@
     }
     
 html{
-body {
-    background-color: $color-negro;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-li {
-    list-style: none;
-    color: $color-blanco;
-
-a {
-    text-decoration: none;
-    color: $color-blanco;
-}
-}
+    body {
+        background-color: $color-negro;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        }
+     ul {
+            padding: 0;
+            li {
+                list-style: none;
+                color: $color-blanco;
+                a {
+                text-decoration: none;
+                color: $color-blanco;
+                }
+            }   
+    }
 }
